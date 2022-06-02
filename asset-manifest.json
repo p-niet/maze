@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/maze-game/static/css/main.53a5c635.chunk.css",
-    "main.js": "/maze-game/static/js/main.d2f897f8.chunk.js",
-    "main.js.map": "/maze-game/static/js/main.d2f897f8.chunk.js.map",
-    "runtime-main.js": "/maze-game/static/js/runtime-main.f57de553.js",
-    "runtime-main.js.map": "/maze-game/static/js/runtime-main.f57de553.js.map",
-    "static/js/2.11171567.chunk.js": "/maze-game/static/js/2.11171567.chunk.js",
-    "static/js/2.11171567.chunk.js.map": "/maze-game/static/js/2.11171567.chunk.js.map",
-    "index.html": "/maze-game/index.html",
-    "static/css/main.53a5c635.chunk.css.map": "/maze-game/static/css/main.53a5c635.chunk.css.map",
-    "static/js/2.11171567.chunk.js.LICENSE.txt": "/maze-game/static/js/2.11171567.chunk.js.LICENSE.txt",
-    "static/media/kaja.99104906.jpeg": "/maze-game/static/media/kaja.99104906.jpeg",
-    "static/media/scream.1941e3cb.mp3": "/maze-game/static/media/scream.1941e3cb.mp3"
+    "main.css": "/maze/static/css/main.53a5c635.chunk.css",
+    "main.js": "/maze/static/js/main.d2f897f8.chunk.js",
+    "main.js.map": "/maze/static/js/main.d2f897f8.chunk.js.map",
+    "runtime-main.js": "/maze/static/js/runtime-main.ac7c7930.js",
+    "runtime-main.js.map": "/maze/static/js/runtime-main.ac7c7930.js.map",
+    "static/js/2.11171567.chunk.js": "/maze/static/js/2.11171567.chunk.js",
+    "static/js/2.11171567.chunk.js.map": "/maze/static/js/2.11171567.chunk.js.map",
+    "index.html": "/maze/index.html",
+    "static/css/main.53a5c635.chunk.css.map": "/maze/static/css/main.53a5c635.chunk.css.map",
+    "static/js/2.11171567.chunk.js.LICENSE.txt": "/maze/static/js/2.11171567.chunk.js.LICENSE.txt",
+    "static/media/kaja.99104906.jpeg": "/maze/static/media/kaja.99104906.jpeg",
+    "static/media/scream.1941e3cb.mp3": "/maze/static/media/scream.1941e3cb.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.f57de553.js",
+    "static/js/runtime-main.ac7c7930.js",
     "static/js/2.11171567.chunk.js",
     "static/css/main.53a5c635.chunk.css",
     "static/js/main.d2f897f8.chunk.js"
