@@ -4,11 +4,13 @@ import "./App.css";
 import Lost from "./levels/Lost";
 import Level2 from "./levels/Level2";
 import Kaja from "./levels/Kaja";
+import { Info } from "./levels/Info";
 
 export default function App() {
   const [isLevelOne, setIsLevelOne] = useState(true);
   const [isLost, setIsLost] = useState(false);
   const [isKaja, setIsKaja] = useState(false);
+  const [isInfoShown, setIsInfoShown] = useState(false);
 
   useEffect(() => {
     window.addEventListener("mousemove", (e) => {
@@ -34,12 +36,21 @@ export default function App() {
     <div className="maze-app">
       {isLost && <Lost />}
       {isKaja && <Kaja />}
+      {isInfoShown && <Info setIsInfoShown={setIsInfoShown} />}
       <div className="header">
         <h1 className="main-title">
           {isLevelOne && "Level 1"}
           {!isLevelOne && "Level 2"}
         </h1>
         <h3 className="subtitle">Make it to the finish</h3>
+        <h5
+          className="go-back"
+          onClick={() => {
+            setIsInfoShown(true);
+          }}
+        >
+          instructions
+        </h5>
       </div>
       <div className="game">
         {isLevelOne && <Level1 />}

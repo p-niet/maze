@@ -16,7 +16,7 @@ function Kaja() {
       <audio src={audio}></audio>
 
       <h1 className="restart">
-        <a href="/maze-game">Restart?</a>
+        <a href="/maze">Restart?</a>
       </h1>
     </div>
   );

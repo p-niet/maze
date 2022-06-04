@@ -6,7 +6,7 @@ export default function Lost() {
       <div className="lost-message">
         <h1>You've lost</h1>
         <h1>
-          Try <a href="/maze-game">Again</a>
+          Try <a href="/maze">Again</a>
         </h1>
       </div>
     </div>

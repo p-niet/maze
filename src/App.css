@@ -128,3 +128,28 @@
 .restart a:hover {
   text-decoration: underline;
 }
+
+.info-message {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 60vh;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.info-message p {
+  text-align: center;
+}
+
+.go-back:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
